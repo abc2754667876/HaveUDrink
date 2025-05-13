@@ -1,0 +1,1213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50113D592CCF6D9200AFDABA /* IntentsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50113D582CCF6D9200AFDABA /* IntentsManager.swift */; };
+		503E51CC2CB96C4E0050570E /* AddWaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503E51CB2CB96C4E0050570E /* AddWaterView.swift */; };
+		50426F502CC26F10008F276F /* iCloudSyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50426F4F2CC26F10008F276F /* iCloudSyncManager.swift */; };
+		504BC7F12CB69DB8000EB0E4 /* HaveUDrinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BC7F02CB69DB8000EB0E4 /* HaveUDrinkApp.swift */; };
+		504BC7F32CB69DB8000EB0E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BC7F22CB69DB8000EB0E4 /* ContentView.swift */; };
+		504BC7F52CB69DBA000EB0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504BC7F42CB69DBA000EB0E4 /* Assets.xcassets */; };
+		504BC7F82CB69DBA000EB0E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504BC7F72CB69DBA000EB0E4 /* Preview Assets.xcassets */; };
+		504BC8022CB69DBA000EB0E4 /* HaveUDrinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BC8012CB69DBA000EB0E4 /* HaveUDrinkTests.swift */; };
+		504BC80C2CB69DBA000EB0E4 /* HaveUDrinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BC80B2CB69DBA000EB0E4 /* HaveUDrinkUITests.swift */; };
+		504BC80E2CB69DBA000EB0E4 /* HaveUDrinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BC80D2CB69DBA000EB0E4 /* HaveUDrinkUITestsLaunchTests.swift */; };
+		504BC8202CB6D261000EB0E4 /* GenJyuuGothic-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 504BC81C2CB6D260000EB0E4 /* GenJyuuGothic-Heavy.ttf */; };
+		504BC8212CB6D261000EB0E4 /* GenJyuuGothic-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 504BC81D2CB6D260000EB0E4 /* GenJyuuGothic-Medium.ttf */; };
+		504BC8222CB6D261000EB0E4 /* GenJyuuGothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 504BC81E2CB6D260000EB0E4 /* GenJyuuGothic-Bold.ttf */; };
+		504BC8232CB6D261000EB0E4 /* GenJyuuGothic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 504BC81F2CB6D261000EB0E4 /* GenJyuuGothic-Regular.ttf */; };
+		504BC8272CB75704000EB0E4 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BC8262CB75704000EB0E4 /* DrinkView.swift */; };
+		504BC82A2CB764C1000EB0E4 /* FirstUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BC8292CB764C1000EB0E4 /* FirstUseView.swift */; };
+		504BC8312CB7F458000EB0E4 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BC8302CB7F458000EB0E4 /* Common.swift */; };
+		504BC8332CB812FE000EB0E4 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BC8322CB812FE000EB0E4 /* WeatherManager.swift */; };
+		50687B272CBA06FF00FA8F12 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B262CBA06FF00FA8F12 /* DataManager.swift */; };
+		50687B292CBA19E000FA8F12 /* AddWineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B282CBA19E000FA8F12 /* AddWineView.swift */; };
+		50687B2B2CBA321C00FA8F12 /* AddCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B2A2CBA321C00FA8F12 /* AddCoffeeView.swift */; };
+		50687B2D2CBA3E1D00FA8F12 /* AddMilkteaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B2C2CBA3E1C00FA8F12 /* AddMilkteaView.swift */; };
+		50687B2F2CBA46F900FA8F12 /* AddMilkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B2E2CBA46F900FA8F12 /* AddMilkView.swift */; };
+		50687B312CBA4C8D00FA8F12 /* AddOtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B302CBA4C8D00FA8F12 /* AddOtherView.swift */; };
+		50687B332CBB674500FA8F12 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B322CBB674500FA8F12 /* RecordView.swift */; };
+		50687B352CBB677600FA8F12 /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B342CBB677600FA8F12 /* AchievementView.swift */; };
+		50687B372CBB678500FA8F12 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B362CBB678500FA8F12 /* MyView.swift */; };
+		50687B442CBBABBD00FA8F12 /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B432CBBABBD00FA8F12 /* SegmentedPicker.swift */; };
+		50687B462CBBABF000FA8F12 /* AnimationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B452CBBABF000FA8F12 /* AnimationEffect.swift */; };
+		50687B482CBBAC2B00FA8F12 /* PickerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B472CBBAC2B00FA8F12 /* PickerStyle.swift */; };
+		50687B4A2CBBC40400FA8F12 /* WaterDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B492CBBC40400FA8F12 /* WaterDatePicker.swift */; };
+		50687B512CBE04B200FA8F12 /* RecordView_Sheet_DailyRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B502CBE04B200FA8F12 /* RecordView_Sheet_DailyRecord.swift */; };
+		50687B532CBFAD2800FA8F12 /* RecordView_Sheet_WeeklyAndMonthlyRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B522CBFAD2800FA8F12 /* RecordView_Sheet_WeeklyAndMonthlyRecord.swift */; };
+		50687B552CBFDEE800FA8F12 /* RecordView_Sheet_YearlyRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50687B542CBFDEE800FA8F12 /* RecordView_Sheet_YearlyRecord.swift */; };
+		507138382CC0A284000D539E /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507138372CC0A284000D539E /* NotificationManager.swift */; };
+		507233342CC2AEEF00ACB955 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507233332CC2AEEF00ACB955 /* HealthKitManager.swift */; };
+		507233402CC540C300ACB955 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5072333F2CC540C200ACB955 /* Intents.framework */; };
+		507233432CC540C300ACB955 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507233422CC540C300ACB955 /* IntentHandler.swift */; };
+		5072334B2CC540C300ACB955 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5072334A2CC540C300ACB955 /* IntentsUI.framework */; };
+		5072334E2CC540C300ACB955 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072334D2CC540C300ACB955 /* IntentViewController.swift */; };
+		507233512CC540C300ACB955 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 507233502CC540C300ACB955 /* Base */; };
+		507233552CC540C300ACB955 /* MySiriExtensionUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 507233492CC540C300ACB955 /* MySiriExtensionUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		507233582CC540C300ACB955 /* MySiriExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5072333D2CC540C200ACB955 /* MySiriExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5079932B2CCA049E00440977 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5079932A2CCA049E00440977 /* NetworkMonitor.swift */; };
+		50BF297E2CC5EB9000BA2318 /* iCloudSyncRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BF297D2CC5EB9000BA2318 /* iCloudSyncRecordsView.swift */; };
+		B804B9BA2CDCA9FA00C519EB /* jiangchenghei.TTF in Resources */ = {isa = PBXBuildFile; fileRef = B804B9B92CDCA9FA00C519EB /* jiangchenghei.TTF */; };
+		B810499A2CD7375F000FB5F1 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81049992CD7375F000FB5F1 /* AddView.swift */; };
+		B810499C2CD89E5A000FB5F1 /* AddAnotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B810499B2CD89E5A000FB5F1 /* AddAnotherView.swift */; };
+		B83FD3052CDA29DD005AA262 /* DrinkView_Sheet_TargetDescribe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FD3042CDA29DD005AA262 /* DrinkView_Sheet_TargetDescribe.swift */; };
+		B83FD3072CDB6273005AA262 /* DeveloperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FD3062CDB6273005AA262 /* DeveloperView.swift */; };
+		B892B10A2CEC263C0039A01D /* WeatherManager2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892B1092CEC263C0039A01D /* WeatherManager2.swift */; };
+		B8E46DC62DC3BA0D005017A5 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = B8E46DC52DC3BA0D005017A5 /* SQLite */; };
+		B8E8D3C62CDF253C0053DE3C /* NFCDrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8D3C52CDF253C0053DE3C /* NFCDrinkView.swift */; };
+		B8E8D3C92CDF3D950053DE3C /* NFCView_Sheet_AddBottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8D3C82CDF3D950053DE3C /* NFCView_Sheet_AddBottle.swift */; };
+		B8E8D3CD2CDFB2CD0053DE3C /* NFCDrinkView_Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8D3CC2CDFB2CD0053DE3C /* NFCDrinkView_Single.swift */; };
+		B8E8D3CF2CDFB7AB0053DE3C /* NFCDrinkView_Single_Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8D3CE2CDFB7AB0053DE3C /* NFCDrinkView_Single_Add.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		504BC7FE2CB69DBA000EB0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504BC7E52CB69DB8000EB0E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504BC7EC2CB69DB8000EB0E4;
+			remoteInfo = HaveUDrink;
+		};
+		504BC8082CB69DBA000EB0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504BC7E52CB69DB8000EB0E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504BC7EC2CB69DB8000EB0E4;
+			remoteInfo = HaveUDrink;
+		};
+		507233532CC540C300ACB955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504BC7E52CB69DB8000EB0E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 507233482CC540C300ACB955;
+			remoteInfo = MySiriExtensionUI;
+		};
+		507233562CC540C300ACB955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504BC7E52CB69DB8000EB0E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5072333C2CC540C200ACB955;
+			remoteInfo = MySiriExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5072335F2CC540C300ACB955 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				507233552CC540C300ACB955 /* MySiriExtensionUI.appex in Embed Foundation Extensions */,
+				507233582CC540C300ACB955 /* MySiriExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		50113D582CCF6D9200AFDABA /* IntentsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentsManager.swift; sourceTree = "<group>"; };
+		503E51CB2CB96C4E0050570E /* AddWaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWaterView.swift; sourceTree = "<group>"; };
+		50426F4F2CC26F10008F276F /* iCloudSyncManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudSyncManager.swift; sourceTree = "<group>"; };
+		504BC7ED2CB69DB8000EB0E4 /* HaveUDrink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaveUDrink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504BC7F02CB69DB8000EB0E4 /* HaveUDrinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaveUDrinkApp.swift; sourceTree = "<group>"; };
+		504BC7F22CB69DB8000EB0E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		504BC7F42CB69DBA000EB0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		504BC7F72CB69DBA000EB0E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		504BC7FD2CB69DBA000EB0E4 /* HaveUDrinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaveUDrinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		504BC8012CB69DBA000EB0E4 /* HaveUDrinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaveUDrinkTests.swift; sourceTree = "<group>"; };
+		504BC8072CB69DBA000EB0E4 /* HaveUDrinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaveUDrinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		504BC80B2CB69DBA000EB0E4 /* HaveUDrinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaveUDrinkUITests.swift; sourceTree = "<group>"; };
+		504BC80D2CB69DBA000EB0E4 /* HaveUDrinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaveUDrinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		504BC81C2CB6D260000EB0E4 /* GenJyuuGothic-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Heavy.ttf"; sourceTree = "<group>"; };
+		504BC81D2CB6D260000EB0E4 /* GenJyuuGothic-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Medium.ttf"; sourceTree = "<group>"; };
+		504BC81E2CB6D260000EB0E4 /* GenJyuuGothic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Bold.ttf"; sourceTree = "<group>"; };
+		504BC81F2CB6D261000EB0E4 /* GenJyuuGothic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothic-Regular.ttf"; sourceTree = "<group>"; };
+		504BC8262CB75704000EB0E4 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
+		504BC8292CB764C1000EB0E4 /* FirstUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUseView.swift; sourceTree = "<group>"; };
+		504BC82E2CB79BC3000EB0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		504BC8302CB7F458000EB0E4 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		504BC8322CB812FE000EB0E4 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		504BC8342CB815B7000EB0E4 /* HaveUDrink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HaveUDrink.entitlements; sourceTree = "<group>"; };
+		50687B262CBA06FF00FA8F12 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		50687B282CBA19E000FA8F12 /* AddWineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWineView.swift; sourceTree = "<group>"; };
+		50687B2A2CBA321C00FA8F12 /* AddCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeView.swift; sourceTree = "<group>"; };
+		50687B2C2CBA3E1C00FA8F12 /* AddMilkteaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMilkteaView.swift; sourceTree = "<group>"; };
+		50687B2E2CBA46F900FA8F12 /* AddMilkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMilkView.swift; sourceTree = "<group>"; };
+		50687B302CBA4C8D00FA8F12 /* AddOtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOtherView.swift; sourceTree = "<group>"; };
+		50687B322CBB674500FA8F12 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		50687B342CBB677600FA8F12 /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementView.swift; sourceTree = "<group>"; };
+		50687B362CBB678500FA8F12 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		50687B432CBBABBD00FA8F12 /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
+		50687B452CBBABF000FA8F12 /* AnimationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEffect.swift; sourceTree = "<group>"; };
+		50687B472CBBAC2B00FA8F12 /* PickerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerStyle.swift; sourceTree = "<group>"; };
+		50687B492CBBC40400FA8F12 /* WaterDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDatePicker.swift; sourceTree = "<group>"; };
+		50687B502CBE04B200FA8F12 /* RecordView_Sheet_DailyRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView_Sheet_DailyRecord.swift; sourceTree = "<group>"; };
+		50687B522CBFAD2800FA8F12 /* RecordView_Sheet_WeeklyAndMonthlyRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView_Sheet_WeeklyAndMonthlyRecord.swift; sourceTree = "<group>"; };
+		50687B542CBFDEE800FA8F12 /* RecordView_Sheet_YearlyRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView_Sheet_YearlyRecord.swift; sourceTree = "<group>"; };
+		507138372CC0A284000D539E /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		507233332CC2AEEF00ACB955 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		5072333D2CC540C200ACB955 /* MySiriExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MySiriExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5072333F2CC540C200ACB955 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		507233422CC540C300ACB955 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		507233442CC540C300ACB955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		507233492CC540C300ACB955 /* MySiriExtensionUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MySiriExtensionUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5072334A2CC540C300ACB955 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		5072334D2CC540C300ACB955 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		507233502CC540C300ACB955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		507233522CC540C300ACB955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5079932A2CCA049E00440977 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		50BF297D2CC5EB9000BA2318 /* iCloudSyncRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudSyncRecordsView.swift; sourceTree = "<group>"; };
+		B804B9B92CDCA9FA00C519EB /* jiangchenghei.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = jiangchenghei.TTF; sourceTree = "<group>"; };
+		B81049992CD7375F000FB5F1 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		B810499B2CD89E5A000FB5F1 /* AddAnotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnotherView.swift; sourceTree = "<group>"; };
+		B83FD3042CDA29DD005AA262 /* DrinkView_Sheet_TargetDescribe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView_Sheet_TargetDescribe.swift; sourceTree = "<group>"; };
+		B83FD3062CDB6273005AA262 /* DeveloperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperView.swift; sourceTree = "<group>"; };
+		B892B1092CEC263C0039A01D /* WeatherManager2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager2.swift; sourceTree = "<group>"; };
+		B8E8D3AB2CDDA1CB0053DE3C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B8E8D3AD2CDDA1CB0053DE3C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B8E8D3C52CDF253C0053DE3C /* NFCDrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCDrinkView.swift; sourceTree = "<group>"; };
+		B8E8D3C82CDF3D950053DE3C /* NFCView_Sheet_AddBottle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCView_Sheet_AddBottle.swift; sourceTree = "<group>"; };
+		B8E8D3CC2CDFB2CD0053DE3C /* NFCDrinkView_Single.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCDrinkView_Single.swift; sourceTree = "<group>"; };
+		B8E8D3CE2CDFB7AB0053DE3C /* NFCDrinkView_Single_Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCDrinkView_Single_Add.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504BC7EA2CB69DB8000EB0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E46DC62DC3BA0D005017A5 /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BC7FA2CB69DBA000EB0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BC8042CB69DBA000EB0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5072333A2CC540C200ACB955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507233402CC540C300ACB955 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		507233462CC540C300ACB955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5072334B2CC540C300ACB955 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		503E51CA2CB96BCF0050570E /* DrinkViews */ = {
+			isa = PBXGroup;
+			children = (
+				503E51CB2CB96C4E0050570E /* AddWaterView.swift */,
+				50687B282CBA19E000FA8F12 /* AddWineView.swift */,
+				50687B2A2CBA321C00FA8F12 /* AddCoffeeView.swift */,
+				50687B2C2CBA3E1C00FA8F12 /* AddMilkteaView.swift */,
+				50687B2E2CBA46F900FA8F12 /* AddMilkView.swift */,
+				50687B302CBA4C8D00FA8F12 /* AddOtherView.swift */,
+				B81049992CD7375F000FB5F1 /* AddView.swift */,
+			);
+			path = DrinkViews;
+			sourceTree = "<group>";
+		};
+		504BC7E42CB69DB8000EB0E4 = {
+			isa = PBXGroup;
+			children = (
+				504BC7EF2CB69DB8000EB0E4 /* HaveUDrink */,
+				504BC8002CB69DBA000EB0E4 /* HaveUDrinkTests */,
+				504BC80A2CB69DBA000EB0E4 /* HaveUDrinkUITests */,
+				507233412CC540C300ACB955 /* MySiriExtension */,
+				5072334C2CC540C300ACB955 /* MySiriExtensionUI */,
+				5072333E2CC540C200ACB955 /* Frameworks */,
+				504BC7EE2CB69DB8000EB0E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		504BC7EE2CB69DB8000EB0E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504BC7ED2CB69DB8000EB0E4 /* HaveUDrink.app */,
+				504BC7FD2CB69DBA000EB0E4 /* HaveUDrinkTests.xctest */,
+				504BC8072CB69DBA000EB0E4 /* HaveUDrinkUITests.xctest */,
+				5072333D2CC540C200ACB955 /* MySiriExtension.appex */,
+				507233492CC540C300ACB955 /* MySiriExtensionUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504BC7EF2CB69DB8000EB0E4 /* HaveUDrink */ = {
+			isa = PBXGroup;
+			children = (
+				50687B4E2CBE047900FA8F12 /* Sheets */,
+				504BC8342CB815B7000EB0E4 /* HaveUDrink.entitlements */,
+				504BC82F2CB7F448000EB0E4 /* Modules */,
+				504BC82E2CB79BC3000EB0E4 /* Info.plist */,
+				504BC8252CB6D40B000EB0E4 /* Views */,
+				504BC81A2CB6D223000EB0E4 /* Assets */,
+				504BC7F02CB69DB8000EB0E4 /* HaveUDrinkApp.swift */,
+				504BC7F22CB69DB8000EB0E4 /* ContentView.swift */,
+				504BC7F42CB69DBA000EB0E4 /* Assets.xcassets */,
+				504BC7F62CB69DBA000EB0E4 /* Preview Content */,
+			);
+			path = HaveUDrink;
+			sourceTree = "<group>";
+		};
+		504BC7F62CB69DBA000EB0E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				504BC7F72CB69DBA000EB0E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		504BC8002CB69DBA000EB0E4 /* HaveUDrinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				504BC8012CB69DBA000EB0E4 /* HaveUDrinkTests.swift */,
+			);
+			path = HaveUDrinkTests;
+			sourceTree = "<group>";
+		};
+		504BC80A2CB69DBA000EB0E4 /* HaveUDrinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				504BC80B2CB69DBA000EB0E4 /* HaveUDrinkUITests.swift */,
+				504BC80D2CB69DBA000EB0E4 /* HaveUDrinkUITestsLaunchTests.swift */,
+			);
+			path = HaveUDrinkUITests;
+			sourceTree = "<group>";
+		};
+		504BC81A2CB6D223000EB0E4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				504BC81B2CB6D22B000EB0E4 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		504BC81B2CB6D22B000EB0E4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B804B9B92CDCA9FA00C519EB /* jiangchenghei.TTF */,
+				504BC81E2CB6D260000EB0E4 /* GenJyuuGothic-Bold.ttf */,
+				504BC81C2CB6D260000EB0E4 /* GenJyuuGothic-Heavy.ttf */,
+				504BC81D2CB6D260000EB0E4 /* GenJyuuGothic-Medium.ttf */,
+				504BC81F2CB6D261000EB0E4 /* GenJyuuGothic-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		504BC8252CB6D40B000EB0E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50BF297C2CC5EAA800BA2318 /* MyViews */,
+				50687B402CBBAB6A00FA8F12 /* RecordViews */,
+				503E51CA2CB96BCF0050570E /* DrinkViews */,
+				504BC8262CB75704000EB0E4 /* DrinkView.swift */,
+				504BC8292CB764C1000EB0E4 /* FirstUseView.swift */,
+				50687B322CBB674500FA8F12 /* RecordView.swift */,
+				50687B342CBB677600FA8F12 /* AchievementView.swift */,
+				50687B362CBB678500FA8F12 /* MyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		504BC82F2CB7F448000EB0E4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				504BC8302CB7F458000EB0E4 /* Common.swift */,
+				504BC8322CB812FE000EB0E4 /* WeatherManager.swift */,
+				50687B262CBA06FF00FA8F12 /* DataManager.swift */,
+				507138372CC0A284000D539E /* NotificationManager.swift */,
+				50426F4F2CC26F10008F276F /* iCloudSyncManager.swift */,
+				507233332CC2AEEF00ACB955 /* HealthKitManager.swift */,
+				5079932A2CCA049E00440977 /* NetworkMonitor.swift */,
+				50113D582CCF6D9200AFDABA /* IntentsManager.swift */,
+				B892B1092CEC263C0039A01D /* WeatherManager2.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		50687B402CBBAB6A00FA8F12 /* RecordViews */ = {
+			isa = PBXGroup;
+			children = (
+				50687B432CBBABBD00FA8F12 /* SegmentedPicker.swift */,
+				50687B452CBBABF000FA8F12 /* AnimationEffect.swift */,
+				50687B472CBBAC2B00FA8F12 /* PickerStyle.swift */,
+				50687B492CBBC40400FA8F12 /* WaterDatePicker.swift */,
+				B810499B2CD89E5A000FB5F1 /* AddAnotherView.swift */,
+			);
+			path = RecordViews;
+			sourceTree = "<group>";
+		};
+		50687B4E2CBE047900FA8F12 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				B8E8D3C72CDF3D6F0053DE3C /* NFCView */,
+				B83FD3032CDA29B2005AA262 /* DrinkView */,
+				50687B4F2CBE047F00FA8F12 /* RecordView */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		50687B4F2CBE047F00FA8F12 /* RecordView */ = {
+			isa = PBXGroup;
+			children = (
+				50687B502CBE04B200FA8F12 /* RecordView_Sheet_DailyRecord.swift */,
+				50687B522CBFAD2800FA8F12 /* RecordView_Sheet_WeeklyAndMonthlyRecord.swift */,
+				50687B542CBFDEE800FA8F12 /* RecordView_Sheet_YearlyRecord.swift */,
+			);
+			path = RecordView;
+			sourceTree = "<group>";
+		};
+		5072333E2CC540C200ACB955 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5072333F2CC540C200ACB955 /* Intents.framework */,
+				5072334A2CC540C300ACB955 /* IntentsUI.framework */,
+				B8E8D3AB2CDDA1CB0053DE3C /* WidgetKit.framework */,
+				B8E8D3AD2CDDA1CB0053DE3C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		507233412CC540C300ACB955 /* MySiriExtension */ = {
+			isa = PBXGroup;
+			children = (
+				507233422CC540C300ACB955 /* IntentHandler.swift */,
+				507233442CC540C300ACB955 /* Info.plist */,
+			);
+			path = MySiriExtension;
+			sourceTree = "<group>";
+		};
+		5072334C2CC540C300ACB955 /* MySiriExtensionUI */ = {
+			isa = PBXGroup;
+			children = (
+				5072334D2CC540C300ACB955 /* IntentViewController.swift */,
+				5072334F2CC540C300ACB955 /* MainInterface.storyboard */,
+				507233522CC540C300ACB955 /* Info.plist */,
+			);
+			path = MySiriExtensionUI;
+			sourceTree = "<group>";
+		};
+		50BF297C2CC5EAA800BA2318 /* MyViews */ = {
+			isa = PBXGroup;
+			children = (
+				50BF297D2CC5EB9000BA2318 /* iCloudSyncRecordsView.swift */,
+				B83FD3062CDB6273005AA262 /* DeveloperView.swift */,
+				B8E8D3C52CDF253C0053DE3C /* NFCDrinkView.swift */,
+				B8E8D3CC2CDFB2CD0053DE3C /* NFCDrinkView_Single.swift */,
+				B8E8D3CE2CDFB7AB0053DE3C /* NFCDrinkView_Single_Add.swift */,
+			);
+			path = MyViews;
+			sourceTree = "<group>";
+		};
+		B83FD3032CDA29B2005AA262 /* DrinkView */ = {
+			isa = PBXGroup;
+			children = (
+				B83FD3042CDA29DD005AA262 /* DrinkView_Sheet_TargetDescribe.swift */,
+			);
+			path = DrinkView;
+			sourceTree = "<group>";
+		};
+		B8E8D3C72CDF3D6F0053DE3C /* NFCView */ = {
+			isa = PBXGroup;
+			children = (
+				B8E8D3C82CDF3D950053DE3C /* NFCView_Sheet_AddBottle.swift */,
+			);
+			path = NFCView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504BC7EC2CB69DB8000EB0E4 /* HaveUDrink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504BC8112CB69DBA000EB0E4 /* Build configuration list for PBXNativeTarget "HaveUDrink" */;
+			buildPhases = (
+				504BC7E92CB69DB8000EB0E4 /* Sources */,
+				504BC7EA2CB69DB8000EB0E4 /* Frameworks */,
+				504BC7EB2CB69DB8000EB0E4 /* Resources */,
+				5072335F2CC540C300ACB955 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				507233542CC540C300ACB955 /* PBXTargetDependency */,
+				507233572CC540C300ACB955 /* PBXTargetDependency */,
+			);
+			name = HaveUDrink;
+			packageProductDependencies = (
+				B8E46DC52DC3BA0D005017A5 /* SQLite */,
+			);
+			productName = HaveUDrink;
+			productReference = 504BC7ED2CB69DB8000EB0E4 /* HaveUDrink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		504BC7FC2CB69DBA000EB0E4 /* HaveUDrinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504BC8142CB69DBA000EB0E4 /* Build configuration list for PBXNativeTarget "HaveUDrinkTests" */;
+			buildPhases = (
+				504BC7F92CB69DBA000EB0E4 /* Sources */,
+				504BC7FA2CB69DBA000EB0E4 /* Frameworks */,
+				504BC7FB2CB69DBA000EB0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504BC7FF2CB69DBA000EB0E4 /* PBXTargetDependency */,
+			);
+			name = HaveUDrinkTests;
+			productName = HaveUDrinkTests;
+			productReference = 504BC7FD2CB69DBA000EB0E4 /* HaveUDrinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		504BC8062CB69DBA000EB0E4 /* HaveUDrinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504BC8172CB69DBA000EB0E4 /* Build configuration list for PBXNativeTarget "HaveUDrinkUITests" */;
+			buildPhases = (
+				504BC8032CB69DBA000EB0E4 /* Sources */,
+				504BC8042CB69DBA000EB0E4 /* Frameworks */,
+				504BC8052CB69DBA000EB0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504BC8092CB69DBA000EB0E4 /* PBXTargetDependency */,
+			);
+			name = HaveUDrinkUITests;
+			productName = HaveUDrinkUITests;
+			productReference = 504BC8072CB69DBA000EB0E4 /* HaveUDrinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5072333C2CC540C200ACB955 /* MySiriExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5072335C2CC540C300ACB955 /* Build configuration list for PBXNativeTarget "MySiriExtension" */;
+			buildPhases = (
+				507233392CC540C200ACB955 /* Sources */,
+				5072333A2CC540C200ACB955 /* Frameworks */,
+				5072333B2CC540C200ACB955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySiriExtension;
+			productName = MySiriExtension;
+			productReference = 5072333D2CC540C200ACB955 /* MySiriExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		507233482CC540C300ACB955 /* MySiriExtensionUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 507233592CC540C300ACB955 /* Build configuration list for PBXNativeTarget "MySiriExtensionUI" */;
+			buildPhases = (
+				507233452CC540C300ACB955 /* Sources */,
+				507233462CC540C300ACB955 /* Frameworks */,
+				507233472CC540C300ACB955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySiriExtensionUI;
+			productName = MySiriExtensionUI;
+			productReference = 507233492CC540C300ACB955 /* MySiriExtensionUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		504BC7E52CB69DB8000EB0E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					504BC7EC2CB69DB8000EB0E4 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+					504BC7FC2CB69DBA000EB0E4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 504BC7EC2CB69DB8000EB0E4;
+					};
+					504BC8062CB69DBA000EB0E4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 504BC7EC2CB69DB8000EB0E4;
+					};
+					5072333C2CC540C200ACB955 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					507233482CC540C300ACB955 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 504BC7E82CB69DB8000EB0E4 /* Build configuration list for PBXProject "HaveUDrink" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 504BC7E42CB69DB8000EB0E4;
+			packageReferences = (
+				B8E46DC42DC3BA0D005017A5 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
+			productRefGroup = 504BC7EE2CB69DB8000EB0E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504BC7EC2CB69DB8000EB0E4 /* HaveUDrink */,
+				504BC7FC2CB69DBA000EB0E4 /* HaveUDrinkTests */,
+				504BC8062CB69DBA000EB0E4 /* HaveUDrinkUITests */,
+				5072333C2CC540C200ACB955 /* MySiriExtension */,
+				507233482CC540C300ACB955 /* MySiriExtensionUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504BC7EB2CB69DB8000EB0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B804B9BA2CDCA9FA00C519EB /* jiangchenghei.TTF in Resources */,
+				504BC7F82CB69DBA000EB0E4 /* Preview Assets.xcassets in Resources */,
+				504BC8232CB6D261000EB0E4 /* GenJyuuGothic-Regular.ttf in Resources */,
+				504BC8202CB6D261000EB0E4 /* GenJyuuGothic-Heavy.ttf in Resources */,
+				504BC7F52CB69DBA000EB0E4 /* Assets.xcassets in Resources */,
+				504BC8222CB6D261000EB0E4 /* GenJyuuGothic-Bold.ttf in Resources */,
+				504BC8212CB6D261000EB0E4 /* GenJyuuGothic-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BC7FB2CB69DBA000EB0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BC8052CB69DBA000EB0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5072333B2CC540C200ACB955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		507233472CC540C300ACB955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507233512CC540C300ACB955 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504BC7E92CB69DB8000EB0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50687B2B2CBA321C00FA8F12 /* AddCoffeeView.swift in Sources */,
+				B83FD3052CDA29DD005AA262 /* DrinkView_Sheet_TargetDescribe.swift in Sources */,
+				B8E8D3C92CDF3D950053DE3C /* NFCView_Sheet_AddBottle.swift in Sources */,
+				50687B532CBFAD2800FA8F12 /* RecordView_Sheet_WeeklyAndMonthlyRecord.swift in Sources */,
+				B810499A2CD7375F000FB5F1 /* AddView.swift in Sources */,
+				504BC8332CB812FE000EB0E4 /* WeatherManager.swift in Sources */,
+				50687B272CBA06FF00FA8F12 /* DataManager.swift in Sources */,
+				50BF297E2CC5EB9000BA2318 /* iCloudSyncRecordsView.swift in Sources */,
+				50687B4A2CBBC40400FA8F12 /* WaterDatePicker.swift in Sources */,
+				50687B332CBB674500FA8F12 /* RecordView.swift in Sources */,
+				B83FD3072CDB6273005AA262 /* DeveloperView.swift in Sources */,
+				B8E8D3C62CDF253C0053DE3C /* NFCDrinkView.swift in Sources */,
+				507138382CC0A284000D539E /* NotificationManager.swift in Sources */,
+				50426F502CC26F10008F276F /* iCloudSyncManager.swift in Sources */,
+				50687B352CBB677600FA8F12 /* AchievementView.swift in Sources */,
+				503E51CC2CB96C4E0050570E /* AddWaterView.swift in Sources */,
+				B8E8D3CF2CDFB7AB0053DE3C /* NFCDrinkView_Single_Add.swift in Sources */,
+				507233342CC2AEEF00ACB955 /* HealthKitManager.swift in Sources */,
+				50687B2D2CBA3E1D00FA8F12 /* AddMilkteaView.swift in Sources */,
+				504BC8272CB75704000EB0E4 /* DrinkView.swift in Sources */,
+				5079932B2CCA049E00440977 /* NetworkMonitor.swift in Sources */,
+				B892B10A2CEC263C0039A01D /* WeatherManager2.swift in Sources */,
+				B810499C2CD89E5A000FB5F1 /* AddAnotherView.swift in Sources */,
+				50687B372CBB678500FA8F12 /* MyView.swift in Sources */,
+				50687B482CBBAC2B00FA8F12 /* PickerStyle.swift in Sources */,
+				B8E8D3CD2CDFB2CD0053DE3C /* NFCDrinkView_Single.swift in Sources */,
+				504BC82A2CB764C1000EB0E4 /* FirstUseView.swift in Sources */,
+				50687B512CBE04B200FA8F12 /* RecordView_Sheet_DailyRecord.swift in Sources */,
+				504BC7F32CB69DB8000EB0E4 /* ContentView.swift in Sources */,
+				50687B462CBBABF000FA8F12 /* AnimationEffect.swift in Sources */,
+				50687B312CBA4C8D00FA8F12 /* AddOtherView.swift in Sources */,
+				504BC8312CB7F458000EB0E4 /* Common.swift in Sources */,
+				50687B442CBBABBD00FA8F12 /* SegmentedPicker.swift in Sources */,
+				50687B2F2CBA46F900FA8F12 /* AddMilkView.swift in Sources */,
+				504BC7F12CB69DB8000EB0E4 /* HaveUDrinkApp.swift in Sources */,
+				50687B292CBA19E000FA8F12 /* AddWineView.swift in Sources */,
+				50113D592CCF6D9200AFDABA /* IntentsManager.swift in Sources */,
+				50687B552CBFDEE800FA8F12 /* RecordView_Sheet_YearlyRecord.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BC7F92CB69DBA000EB0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504BC8022CB69DBA000EB0E4 /* HaveUDrinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BC8032CB69DBA000EB0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504BC80C2CB69DBA000EB0E4 /* HaveUDrinkUITests.swift in Sources */,
+				504BC80E2CB69DBA000EB0E4 /* HaveUDrinkUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		507233392CC540C200ACB955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507233432CC540C300ACB955 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		507233452CC540C300ACB955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5072334E2CC540C300ACB955 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		504BC7FF2CB69DBA000EB0E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504BC7EC2CB69DB8000EB0E4 /* HaveUDrink */;
+			targetProxy = 504BC7FE2CB69DBA000EB0E4 /* PBXContainerItemProxy */;
+		};
+		504BC8092CB69DBA000EB0E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504BC7EC2CB69DB8000EB0E4 /* HaveUDrink */;
+			targetProxy = 504BC8082CB69DBA000EB0E4 /* PBXContainerItemProxy */;
+		};
+		507233542CC540C300ACB955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 507233482CC540C300ACB955 /* MySiriExtensionUI */;
+			targetProxy = 507233532CC540C300ACB955 /* PBXContainerItemProxy */;
+		};
+		507233572CC540C300ACB955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5072333C2CC540C200ACB955 /* MySiriExtension */;
+			targetProxy = 507233562CC540C300ACB955 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5072334F2CC540C300ACB955 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				507233502CC540C300ACB955 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		504BC80F2CB69DBA000EB0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		504BC8102CB69DBA000EB0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		504BC8122CB69DBA000EB0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HaveUDrink/HaveUDrink.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 241116;
+				DEVELOPMENT_ASSET_PATHS = "\"HaveUDrink/Preview Content\"";
+				DEVELOPMENT_TEAM = R7PHPV8K99;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaveUDrink/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "今天喝了么";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "将饮水数据与健康中的数据同步";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "将饮水数据与健康中的数据同步";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "通过获取当前的经纬度访问所在地天气数据";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "应用需要访问相册以保存图片";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangBeans.HaveUDrink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		504BC8132CB69DBA000EB0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HaveUDrink/HaveUDrink.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 241116;
+				DEVELOPMENT_ASSET_PATHS = "\"HaveUDrink/Preview Content\"";
+				DEVELOPMENT_TEAM = R7PHPV8K99;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaveUDrink/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "今天喝了么";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "将饮水数据与健康中的数据同步";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "将饮水数据与健康中的数据同步";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "通过获取当前的经纬度访问所在地天气数据";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "应用需要访问相册以保存图片";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangBeans.HaveUDrink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		504BC8152CB69DBA000EB0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7PHPV8K99;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangBeans.HaveUDrinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaveUDrink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HaveUDrink";
+			};
+			name = Debug;
+		};
+		504BC8162CB69DBA000EB0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7PHPV8K99;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangBeans.HaveUDrinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaveUDrink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HaveUDrink";
+			};
+			name = Release;
+		};
+		504BC8182CB69DBA000EB0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7PHPV8K99;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangBeans.HaveUDrinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaveUDrink;
+			};
+			name = Debug;
+		};
+		504BC8192CB69DBA000EB0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7PHPV8K99;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangBeans.HaveUDrinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaveUDrink;
+			};
+			name = Release;
+		};
+		5072335A2CC540C300ACB955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7PHPV8K99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySiriExtensionUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MySiriExtensionUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangBeans.HaveUDrink.MySiriExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5072335B2CC540C300ACB955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7PHPV8K99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySiriExtensionUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MySiriExtensionUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangBeans.HaveUDrink.MySiriExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5072335D2CC540C300ACB955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7PHPV8K99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySiriExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MySiriExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangBeans.HaveUDrink.MySiriExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5072335E2CC540C300ACB955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7PHPV8K99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySiriExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MySiriExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangBeans.HaveUDrink.MySiriExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504BC7E82CB69DB8000EB0E4 /* Build configuration list for PBXProject "HaveUDrink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504BC80F2CB69DBA000EB0E4 /* Debug */,
+				504BC8102CB69DBA000EB0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504BC8112CB69DBA000EB0E4 /* Build configuration list for PBXNativeTarget "HaveUDrink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504BC8122CB69DBA000EB0E4 /* Debug */,
+				504BC8132CB69DBA000EB0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504BC8142CB69DBA000EB0E4 /* Build configuration list for PBXNativeTarget "HaveUDrinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504BC8152CB69DBA000EB0E4 /* Debug */,
+				504BC8162CB69DBA000EB0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504BC8172CB69DBA000EB0E4 /* Build configuration list for PBXNativeTarget "HaveUDrinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504BC8182CB69DBA000EB0E4 /* Debug */,
+				504BC8192CB69DBA000EB0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		507233592CC540C300ACB955 /* Build configuration list for PBXNativeTarget "MySiriExtensionUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5072335A2CC540C300ACB955 /* Debug */,
+				5072335B2CC540C300ACB955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5072335C2CC540C300ACB955 /* Build configuration list for PBXNativeTarget "MySiriExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5072335D2CC540C300ACB955 /* Debug */,
+				5072335E2CC540C300ACB955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B8E46DC42DC3BA0D005017A5 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.15.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B8E46DC52DC3BA0D005017A5 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8E46DC42DC3BA0D005017A5 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 504BC7E52CB69DB8000EB0E4 /* Project object */;
+}

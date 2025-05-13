@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>zh_CN</string>
+	</array>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>IntentIntent</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>GenJyuuGothic-Bold.ttf</string>
+		<string>GenJyuuGothic-Heavy.ttf</string>
+		<string>GenJyuuGothic-Medium.ttf</string>
+		<string>GenJyuuGothic-Regular.ttf</string>
+		<string>ResourceHanRoundedCN-Heavy.ttf</string>
+		<string>ResourceHanRoundedCN-Medium.ttf</string>
+		<string>ResourceHanRoundedCN-Normal.ttf</string>
+		<string>JiangChengHeiTi-700W</string>
+	</array>
+</dict>
+</plist>
